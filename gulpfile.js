@@ -8,3 +8,14 @@ gulp.task('js', function() {
 		.pipe(gulp.dest('dist'))
 		;
 });
+
+gulp.task('other-js', function() {
+	return gulp.src(['src/a.js', 'src/b.js'])
+		.pipe(concat('two.js'))
+		.pipe(gulp.dest('dist'))
+		;
+});
+
+gulp.task('default', ['js', 'other-js'], function() {
+	console.log('You dit it!')
+});
