@@ -1,0 +1,26 @@
+{
+  "name": "metro-vibe-UI",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nguyenmanh1507/metro-vibe-UI",
+  "authors": [
+    "nguyen manh <nguyenmanh1507@gmail.com>"
+  ],
+  "description": "UI kit",
+  "keywords": [
+    "UI",
+    "kit"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~3.1.0",
+    "jquery": "~2.1.4",
+    "fastclick": "~1.0.6"
+  }
+}
