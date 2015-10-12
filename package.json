@@ -1,25 +1,24 @@
 {
-  "name": "metro-vibe-ui",
+  "name": "rapid-gulp",
   "version": "1.0.0",
-  "description": "UI kit",
+  "description": "gulpjs",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyenmanh1507/metro-vibe-UI.git"
+    "url": "git+https://github.com/nguyenmanh1507/rapid-gulp.git"
   },
   "keywords": [
-    "UI",
-    "Kit"
+    "Gulpjs"
   ],
   "author": "nguyenmanh1507",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/nguyenmanh1507/metro-vibe-UI/issues"
+    "url": "https://github.com/nguyenmanh1507/rapid-gulp/issues"
   },
-  "homepage": "https://github.com/nguyenmanh1507/metro-vibe-UI#readme",
+  "homepage": "https://github.com/nguyenmanh1507/rapid-gulp#readme",
   "devDependencies": {
     "browser-sync": "^2.9.11",
     "del": "^2.0.2",
